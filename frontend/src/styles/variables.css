@@ -1,0 +1,89 @@
+:root {
+  /* Dark premium cloud storage palette */
+  --bg-app: #07111f;
+  --bg-surface: rgba(15, 23, 42, 0.78);
+  --bg-surface-secondary: #101d31;
+  --bg-surface-hover: #162844;
+  --bg-surface-active: #1e3358;
+  --bg-surface-strong: #213454;
+
+  --text-primary: #edf4ff;
+  --text-secondary: #b9c8e3;
+  --text-muted: #8da2c4;
+  --text-inverse: #ffffff;
+
+  --border-subtle: rgba(148, 163, 184, 0.14);
+  --border-default: rgba(148, 163, 184, 0.2);
+  --border-strong: rgba(159, 177, 219, 0.36);
+
+  --accent-primary: #7aa2ff;
+  --accent-hover: #8ea9ff;
+  --accent-light: rgba(122, 162, 255, 0.14);
+  --accent-text: #cfe0ff;
+  --accent-strong: #dfe9ff;
+
+  --secondary-primary: #8b5cf6;
+  --secondary-soft: rgba(139, 92, 246, 0.15);
+
+  --danger-primary: #f87171;
+  --danger-hover: #ef4444;
+  --danger-light: rgba(248, 113, 113, 0.12);
+  --danger-text: #fecaca;
+
+  --success-primary: #34d399;
+  --success-hover: #10b981;
+  --success-light: rgba(52, 211, 153, 0.12);
+  --success-text: #d1fae5;
+
+  --warning-primary: #fbbf24;
+  --warning-light: rgba(251, 191, 36, 0.12);
+
+  --shadow-sm: 0 6px 18px rgb(15 23 42 / 0.2);
+  --shadow-md: 0 14px 34px rgb(15 23 42 / 0.28);
+  --shadow-lg: 0 24px 52px rgb(2 6 23 / 0.42);
+  --shadow-xl: 0 30px 72px rgb(2 6 23 / 0.55);
+
+  /* Typography */
+  --font-family:
+    "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji";
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+
+  /* Spacing */
+  --spacing-1: 0.25rem;
+  --spacing-2: 0.5rem;
+  --spacing-3: 0.75rem;
+  --spacing-4: 1rem;
+  --spacing-5: 1.25rem;
+  --spacing-6: 1.5rem;
+  --spacing-8: 2rem;
+  --spacing-10: 2.5rem;
+  --spacing-12: 3rem;
+
+  /* Border Radii */
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-full: 9999px;
+
+  /* Layout Dimensions */
+  --header-height: 4.25rem;
+  --sidebar-width: 17rem;
+  --z-header: 30;
+  --z-sidebar: 40;
+  --z-modal-backdrop: 50;
+  --z-modal: 60;
+  --z-dropdown: 70;
+  --z-toast: 80;
+
+  /* Transitions */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 200ms cubic-bezier(0.4, 0, 0.2, 1);
+}

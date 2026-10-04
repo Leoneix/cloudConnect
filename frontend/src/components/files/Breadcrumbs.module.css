@@ -1,0 +1,37 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-2);
+  font-size: var(--font-size-sm);
+  color: var(--text-secondary);
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: var(--spacing-2) 0;
+}
+
+.crumb {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-1);
+  color: var(--text-secondary);
+  font-weight: 500;
+  border-radius: var(--radius-sm);
+  padding: 2px 6px;
+  transition: all var(--transition-fast);
+}
+
+.crumb:hover:not(.current) {
+  color: var(--accent-primary);
+  background-color: var(--bg-surface-secondary);
+}
+
+.current {
+  color: var(--text-primary);
+  font-weight: 600;
+  cursor: default;
+}
+
+.separator {
+  color: var(--text-muted);
+  flex-shrink: 0;
+}

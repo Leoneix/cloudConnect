@@ -1,0 +1,44 @@
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-6);
+  text-align: center;
+  background-color: var(--bg-app);
+}
+
+.iconCircle {
+  width: 5rem;
+  height: 5rem;
+  border-radius: var(--radius-full);
+  background-color: var(--border-default);
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--spacing-4);
+}
+
+.code {
+  font-size: var(--font-size-3xl);
+  font-weight: 800;
+  color: var(--accent-primary);
+  line-height: 1;
+}
+
+.title {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-top: var(--spacing-2);
+}
+
+.description {
+  font-size: var(--font-size-base);
+  color: var(--text-secondary);
+  max-width: 24rem;
+  margin-top: var(--spacing-2);
+  margin-bottom: var(--spacing-6);
+}
